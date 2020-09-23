@@ -1,2 +1,2 @@
 # CSharp Learning
-Homework and practice tasks
+Homeworks and practice tasks
