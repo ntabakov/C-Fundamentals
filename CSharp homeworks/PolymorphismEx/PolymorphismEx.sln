@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicles", "Vehicles\Vehicles.csproj", "{E091D792-9196-4262-9C72-1516628B87DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raiding", "Raiding\Raiding.csproj", "{97FAEB33-D7C5-44F8-8C06-71263DDC45B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildFarm", "WildFarm\WildFarm.csproj", "{26A47FA4-316C-4C4D-B1DA-C09BB50E52DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E091D792-9196-4262-9C72-1516628B87DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E091D792-9196-4262-9C72-1516628B87DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E091D792-9196-4262-9C72-1516628B87DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E091D792-9196-4262-9C72-1516628B87DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FAEB33-D7C5-44F8-8C06-71263DDC45B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FAEB33-D7C5-44F8-8C06-71263DDC45B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FAEB33-D7C5-44F8-8C06-71263DDC45B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FAEB33-D7C5-44F8-8C06-71263DDC45B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A47FA4-316C-4C4D-B1DA-C09BB50E52DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A47FA4-316C-4C4D-B1DA-C09BB50E52DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A47FA4-316C-4C4D-B1DA-C09BB50E52DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A47FA4-316C-4C4D-B1DA-C09BB50E52DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {847ED5CA-BD3B-48B2-8F1C-89EAE8A7359F}
+	EndGlobalSection
+EndGlobal
