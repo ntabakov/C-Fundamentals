@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeedForSpeed", "D:\softuni\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "D:\softuni\c# OOP\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Restaurant\Restaurant.csproj", "{D9F48FC2-5B1D-4E54-851D-A30D3D7C7646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{832AF957-DD03-4B1E-AAD5-EA2E67D077F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D9F48FC2-5B1D-4E54-851D-A30D3D7C7646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F48FC2-5B1D-4E54-851D-A30D3D7C7646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F48FC2-5B1D-4E54-851D-A30D3D7C7646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832AF957-DD03-4B1E-AAD5-EA2E67D077F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832AF957-DD03-4B1E-AAD5-EA2E67D077F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832AF957-DD03-4B1E-AAD5-EA2E67D077F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832AF957-DD03-4B1E-AAD5-EA2E67D077F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
