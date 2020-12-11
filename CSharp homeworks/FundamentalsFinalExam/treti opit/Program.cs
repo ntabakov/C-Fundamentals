@@ -36,19 +36,46 @@ namespace Testsetst
                 if (inputArgs[0] == "Rate:")
                 {
                     double rating = double.Parse(inputArgs[3]);
-                    plantStorage[plant][1] += rating;
-                    plantStorage[plant][2] += 1;
+                    if (rating >= 0 && plantStorage.ContainsKey(plant))
+                    {
+                        plantStorage[plant][1] += rating;
+                        plantStorage[plant][2] += 1;
+                    }
+                    else
+                    {
+                        Console.WriteLine("error");
+
+                    }
+
 
                 }
                 else if (inputArgs[0] == "Update:")
                 {
                     int rarity = int.Parse(inputArgs[3]);
-                    plantStorage[plant][0] = rarity;
+                    if (rarity >= 0 && plantStorage.ContainsKey(plant))
+                    {
+                        plantStorage[plant][0] = rarity;
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("error");
+
+                    }
                 }
                 else if (inputArgs[0] == "Reset:")
                 {
-                    plantStorage[plant][1] = 0;
-                    plantStorage[plant][2] = 0;
+                    if (plantStorage.ContainsKey(plant))
+                    {
+                        plantStorage[plant][1] = 0;
+                        plantStorage[plant][2] = 0;
+                    }
+                    else
+                    {
+                        Console.WriteLine("error");
+
+                    }
+
 
                 }
                 else
