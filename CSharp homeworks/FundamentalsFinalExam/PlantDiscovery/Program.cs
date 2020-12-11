@@ -28,7 +28,7 @@ namespace PlantDiscovery
             }
 
             string command = Console.ReadLine();
-
+                
             while (command != "Exhibition")
             {
                 var cList = command.Split(new char[] { ' ', ':', '-' }, StringSplitOptions.RemoveEmptyEntries);
