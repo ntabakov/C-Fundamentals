@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.RecursiveArraySum", "01.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.RecursiveDrawing", "02.RecursiveDrawing\02.RecursiveDrawing.csproj", "{8AE68D26-168B-4785-8EF9-4DC9C99A1109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RecursiveFactorial", "04.RecursiveFactorial\04.RecursiveFactorial.csproj", "{86B9C7DA-F74A-4E84-8087-3EFB364830F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.RecursiveFactorial", "04.RecursiveFactorial\04.RecursiveFactorial.csproj", "{86B9C7DA-F74A-4E84-8087-3EFB364830F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C551339C-AC0D-4479-A63C-76812925AF40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{C551339C-AC0D-4479-A63C-76812925AF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Generating01Vectors", "03.Generating01Vectors\03.Generating01Vectors.csproj", "{C9253580-A30E-4290-84C2-1104F1707D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FindAllPathsInALabyrinth", "05.FindAllPathsInALabyrinth\05.FindAllPathsInALabyrinth.csproj", "{AA0EAD1C-98C0-4034-B219-E94054EE8BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{C551339C-AC0D-4479-A63C-76812925AF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C551339C-AC0D-4479-A63C-76812925AF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C551339C-AC0D-4479-A63C-76812925AF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9253580-A30E-4290-84C2-1104F1707D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9253580-A30E-4290-84C2-1104F1707D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9253580-A30E-4290-84C2-1104F1707D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9253580-A30E-4290-84C2-1104F1707D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0EAD1C-98C0-4034-B219-E94054EE8BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0EAD1C-98C0-4034-B219-E94054EE8BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0EAD1C-98C0-4034-B219-E94054EE8BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0EAD1C-98C0-4034-B219-E94054EE8BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
