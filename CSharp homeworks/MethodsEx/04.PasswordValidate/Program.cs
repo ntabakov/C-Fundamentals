@@ -54,7 +54,7 @@ namespace _04.PasswordValidator
         {
             for (int i = 0; i < password.Length; i++)
             {
-                if (!((password[i] >= 48 && password[i] <= 57) || (password[i] >= 65 && password[i] <= 90) || (password[i] >= 97 && password[i] <= 122)))
+                if (!(Char.IsDigit(password[i]) || Char.IsLetter(password[i])))
                 {
                     return false;
                 }
@@ -67,7 +67,7 @@ namespace _04.PasswordValidator
             int count = 0;
             for (int i = 0; i < password.Length; i++)
             {
-                if (password[i] >= 48 && password[i] <= 57)
+                if (Char.IsDigit(password[i]))
                 {
                     count++;
                 }
